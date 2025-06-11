@@ -14,19 +14,33 @@ If you use any of the datasets above, please cite our article, and this reposito
 
 For detailed information about the variables in the data sets, see Nielsen & Mønster (YYYY).
 
-## Replication scripts
+## Replication script
 To replicate the results, the replication script should be run under [R version 4.1.2](https://cran.r-project.org). A later version may work, but this cannot be guaranteed.
 
-To ensure replicability of the scripts, we use the [groundhog package](https://groundhogr.com/). Using groundhog guarantees that you will use the same versions of all packages that we used when producing the results in the paper. Therefore, you only need to install the `groundhog` package, which will the take care of installing the correct versions of all other packages without interfering with your current R installation. You can install `groundhog` with the following command:
+To ensure replicability of the script, we use the [groundhog package](https://groundhogr.com/). Using groundhog guarantees that you will use the same versions of all packages that we used when producing the results in the paper. Therefore, you only need to install the `groundhog` package, which will the take care of installing the correct versions of all other packages without interfering with your current R installation. You can install `groundhog` with the following command:
 ```
 install.packages('groundhog')
 ```
 
-Running the two scripts will generate the tables (in HTML format) and figures (in PDF format) in the article that rely on data. Some tables are split into several parts&mdash;for each of the two countries, Denmark and the US, included in study 1; and valence and arousal or the three affective styles in study 2. In some cases the generated tables are formatted slightly differently from the final tables in the article or online appendix, but the information is the same.
+Running the replication script will generate the tables (in HTML format) in the article and the online appendix. Some tables are split into two parts &mdash; one for each of the two countries, Denmark and the US. In some cases the generated tables are formatted slightly differently from the final tables in the article or online appendix, but the information is the same.
 
-Run the scripts in a new R session, or restart the R session in RStudio, to avoid conflicts with other versions of required packages that may already be loaded.
+Run the script in a new R session, or restart the R session in RStudio, to avoid conflicts with other versions of required packages that may already be loaded. The most robust way is to use `Rscript`(Mac OS and Linux) or `Rscript.exe` (Windows) after installing `groundhog` as shown above. Run the replication script on the command line like this:
+```
+Rscript replication.R
+```
 
-The scripts use R (R Core Team, 2021) and the following packages
+On Windows:
+```
+Rscript.exe replication.R
+```
+
+**Note:** Running the script requires that your current working directory is set to where the script is located, and that the `Rscript` executable is in your search path. If this is not the case, consult the R documentation.
+
+## Results
+For reference, we have included the output of running the script in this repository in the directory `results`. 
+With R version 4.1.2 the replication script should result in identical output.
+
+The script use R (R Core Team, 2021) and the following packages
 * `groundhog`: Simonsohn & Gruson, 2025.
 * `dplyr`: Wickham et al., 2021.
 * `table1`: Rich, 2021.
