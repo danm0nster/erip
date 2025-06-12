@@ -7,8 +7,8 @@ This repository contains data and R code to replicate the results in the article
 
 ## Data
 The following two data files are included:
-1. `survey_dk.csv`: Data from survey in Denmark.
-2. `survey_us.csv`: Data from survey in United States.
+* `survey_dk.csv`: Data from survey in Denmark.
+* `survey_us.csv`: Data from survey in United States.
 
 If you use any of the datasets above, please cite our article, and this repository.
 
@@ -40,7 +40,7 @@ Rscript.exe replication.R
 For reference, we have included the output of running the script in this repository in the directory `results`. 
 With R version 4.1.2 the replication script should result in identical output.
 
-The script use R (R Core Team, 2021) and the following packages
+The script uses R (R Core Team, 2021) and the following packages
 * `groundhog`: Simonsohn & Gruson, 2025.
 * `dplyr`: Wickham et al., 2021.
 * `table1`: Rich, 2021.
