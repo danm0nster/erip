@@ -3,7 +3,10 @@
 # Replication data and code for  _The Role of Emotional Regulation in Politics: Evidence from Cross-Country Surveys_
 
 This repository contains data and R code to replicate the results in the article
-> TBD (article under review)
+> The Role of Emotional Regulation in Politics: Evidence from Cross-Country Surveys
+> Julie Hassing Nielsen & Dan Mønster
+> To appear in Political Psychology
+> (article accepted for publication)
 
 ## Data
 The following two data files are included:
