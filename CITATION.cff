@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Mønster"
+  given-names: "Dan"
+  orcid: "https://orcid.org/0000-0001-9639-8823"
+- family-names: "Hassing Nielsen"
+  given-names: "Julie"
+  orcid: "https://orcid.org/0000-0003-1098-1212"
+title: "Replication data and code for The Role of Emotional Regulation in Politics: Evidence from Cross-Country Surveys"
+version: 1.0.0
+doi: 10.5281/zenodo.17865641
+date-released: 2025-12-09
+url: "https://github.com/danm0nster/erip"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Hassing Nielsen"
+    given-names: "Julie"
+    orcid: "https://orcid.org/0000-0003-1098-1212"
+  - family-names: "Mønster"
+    given-names: "Dan"
+    orcid: "https://orcid.org/0000-0001-9639-8823"
+  doi: "10.1111/pops.70094"
+  journal: "Journal of Political Psychology"
+  month: NA
+  start: NA # First page number
+  end: NA # Last page number
+  title: "The Role of Emotional Regulation in Politics: Evidence from Cross-Country Surveys"
+  issue: NA
+  volume: NA
+  year: 2026
