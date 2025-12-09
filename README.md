@@ -1,4 +1,6 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
+[![DOI](https://zenodo.org/badge/1000169037.svg)](https://doi.org/10.5281/zenodo.17865640)
+
 
 # Replication data and code for  _The Role of Emotional Regulation in Politics: Evidence from Cross-Country Surveys_
 
@@ -8,7 +10,7 @@ This repository contains data and R code to replicate the results in the article
 > The Role of Emotional Regulation in Politics: Evidence from Cross-Country Surveys
 > Political Psychology
 >
-> (Article accepted for publication)
+> (Article accepted for publication in Political Psychology)
 
 ## Data
 The following two data files are included:
