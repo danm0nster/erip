@@ -22,7 +22,7 @@ The following two data files are included:
 
 If you use any of the datasets above, please cite our article, and this repository.
 
-For detailed information about the variables in the data sets, see Nielsen & Mønster (YYYY).
+For detailed information about the variables in the data sets, see [Nielsen & Mønster (2026)](https://doi.org/10.1111/pops.70094).
 
 ## Replication script
 To replicate the results, the replication script should be run under [R version 4.1.2](https://cran.r-project.org). A later version may work, but this cannot be guaranteed.
